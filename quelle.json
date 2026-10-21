@@ -1,0 +1,44 @@
+{
+  "name": "Perwein Hofgut",
+  "identifier": "de.perweinhofgut.quelle",
+  "sourceURL": "https://raw.githubusercontent.com/jjuuzzii/hofgut-apps/main/quelle.json",
+  "news": [],
+  "apps": [
+    {
+      "name": "Zuhause",
+      "bundleIdentifier": "de.perweinhofgut.hofgut",
+      "developerName": "Perwein Hofgut",
+      "localizedDescription": "Perwein Hofgut – Zuhause, Hof und Hofladen am iPhone, am iPad das Küchentablet.",
+      "iconURL": "https://raw.githubusercontent.com/jjuuzzii/hofgut-apps/main/Zuhause.png",
+      "versions": [
+        {
+          "version": "0.41.185",
+          "buildVersion": "185",
+          "date": "2026-10-21T08:42:58Z",
+          "downloadURL": "https://raw.githubusercontent.com/jjuuzzii/hofgut-apps/main/Zuhause-0.41.185.ipa",
+          "size": 2645748,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "version": "0.41.185",
+      "versionDate": "2026-10-21T08:42:58Z",
+      "downloadURL": "https://raw.githubusercontent.com/jjuuzzii/hofgut-apps/main/Zuhause-0.41.185.ipa",
+      "size": 2645748,
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Zuhause zeigt deine Apple-Music-Empfehlungen, zuletzt Gehörtes und deine Playlists und spielt sie über Music Assistant auf den Lautsprechern.",
+          "NSCalendarsFullAccessUsageDescription": "Zuhause zeigt die Termine aus dem Kalender dieses Geräts.",
+          "NSCameraUsageDescription": "Am Küchentablet erkennt die Frontkamera, ob jemand davor steht. Die Bilder bleiben auf dem iPad.",
+          "NSLocalNetworkUsageDescription": "Zuhause verbindet sich im Heimnetz direkt mit Home Assistant.",
+          "NSMicrophoneUsageDescription": "Das Mikrofon nimmt Sprachbefehle für Home Assistant (Assist) auf.",
+          "NSPhotoLibraryAddUsageDescription": "Zuhause speichert Aufnahmen aus dem Hofladen im Album „Hofladen“.",
+          "NSPhotoLibraryUsageDescription": "Zuhause legt für die Aufnahmen aus dem Hofladen das Album „Hofladen“ an.",
+          "NSSpeechRecognitionUsageDescription": "Sprachbefehle werden auf dem Gerät in Text umgewandelt und an Home Assistant geschickt."
+        }
+      }
+    }
+  ]
+}

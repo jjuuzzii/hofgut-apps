@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zuhause – Anmeldung bei Home Assistant</title>
+<!-- Home Assistant liest diese Zeilen: Dorthin darf die Anmeldung zurückspringen (IndieAuth, redirect_uri) -->
+<link rel="redirect_uri" href="zuhause://anmeldung">
+<!-- kuechentablet:// nutzt Zuhause am iPad (Küchentablet) – nicht entfernen -->
+<link rel="redirect_uri" href="kuechentablet://anmeldung">
+<style>body{font:17px/1.5 -apple-system,system-ui,sans-serif;max-width:36em;margin:3em auto;padding:0 16px;color:#17211b}</style>
+</head>
+<body>
+<h1>Zuhause</h1>
+<p>Diese Seite gehört zur App <b>Zuhause</b> (am iPhone, am iPad als Küchentablet). Sie meldet sich bei
+deinem Home Assistant an wie die offizielle App: Du gibst Name und Passwort auf der Anmeldeseite deines
+Home Assistant ein, danach springt die Anmeldung in die App zurück.</p>
+<p>Die App legt sich dabei einen eigenen Zugangsschlüssel an. Du siehst ihn in Home Assistant unter
+Profil › Sicherheit › Langlebige Zugangstoken und kannst ihn dort jederzeit löschen.</p>
+</body>
+</html>
